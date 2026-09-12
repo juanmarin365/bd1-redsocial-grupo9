@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-      </root>
+      <mxCell id="uu_sigue" edge="1" parent="1" source="u" target="u" value="M:N — SIGUE&#10;seguidor → seguido&#10;fecha_seguimiento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=none;endArrow=open;endFill=0;strokeColor=#674EA7;fontColor=#41266B;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=0;entryY=0.97;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="570" y="571.5"/><mxPoint x="570" y="637.65"/></Array></mxGeometry></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>

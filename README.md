@@ -1,6 +1,6 @@
 # Red Social Pascualina
 
-Proyecto académico del **Grupo 9** de Bases de Datos I, orientado al diseño conceptual de una base de datos para una red social estudiantil de la Institución Universitaria Pascual Bravo. La propuesta contempla perfiles, conexiones entre compañeros, publicaciones, grupos de estudio, eventos, chats, mensajes y archivos adjuntos.
+Proyecto académico del **Grupo 9** de Bases de Datos I, orientado al diseño conceptual de una base de datos para una red social estudiantil de la Institución Universitaria Pascual Bravo. La propuesta contempla perfiles, seguimiento de estudiantes, conexiones entre compañeros, publicaciones, grupos de estudio, eventos, chats, mensajes y archivos adjuntos.
 
 ## Información académica
 
@@ -35,7 +35,7 @@ Esta entrega corresponde al modelo conceptual. El modelo lógico, los scripts SQ
 | Informe editable | [Informe.docx](Tarea1/Informe/Informe.docx) | Disponible |
 | Diagrama editable en draw.io | [MER.drawio](Tarea1/MER.drawio) | Disponible |
 | Diagrama exportado | [MER.png](Tarea1/Informe/MER.png) | Disponible e incluido en el informe |
-| Sustentación en YouTube | [Información del video](Tarea1/Video/README.md) | Pendiente de grabación y enlace |
+| Sustentación en YouTube | Enlace de YouTube pendiente | Pendiente de grabación y enlace |
 
 El informe desarrolla el análisis de necesidades, la identificación y justificación de entidades y atributos, las relaciones y cardinalidades, el diagrama MER, las decisiones de diseño, las conclusiones individuales y las referencias. La sección de conclusiones está pendiente de completarse con los aportes de todos los integrantes.
 
@@ -50,6 +50,18 @@ bd1-redsocial-grupo9/
     │   ├── Informe.docx
     │   ├── Informe.pdf
     │   └── MER.png
-    └── Video/
-        └── README.md
+    └── Video/                 # Pendiente de crear con el enlace de YouTube
 ```
+
+## Seguimiento y conexiones
+
+El modelo contiene **ocho entidades y doce relaciones**. Conserva la entidad **Conexión** e incorpora **SIGUE** como relación recursiva entre usuarios.
+
+| Función | Representación | Reglas |
+| --- | --- | --- |
+| Seguir estudiantes | Usuario SIGUE Usuario, M:N | No requiere aceptación ni reciprocidad. Cada usuario puede seguir a cero o muchos usuarios y tener cero o muchos seguidores. |
+| Solicitar una conexión | Usuario SOLICITA Conexión y Usuario RECIBE Conexión, ambas 1:N | Mantiene solicitante, receptor, estado, fecha de solicitud y fecha de aceptación. |
+
+SIGUE distingue los roles **seguidor** y **seguido**, y tiene el atributo **fecha_seguimiento**. Un usuario no puede seguirse a sí mismo ni registrar dos veces el mismo par ordenado (seguidor, seguido). Seguir a otro usuario no crea ni acepta una conexión; aceptar una conexión tampoco crea seguimientos automáticamente.
+
+La relación SIGUE permite cubrir el requisito de seguir compañeros con intereses similares o que puedan ofrecer mentoría. El informe, su PDF y el diagrama documentan ambos comportamientos.
