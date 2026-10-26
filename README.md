@@ -35,7 +35,7 @@ Esta entrega corresponde al modelo conceptual. El modelo lógico, los scripts SQ
 | Informe editable | [Informe.docx](Tarea1/Informe/Informe.docx) | Disponible |
 | Diagrama editable en draw.io | [MER.drawio](Tarea1/MER.drawio) | Disponible |
 | Diagrama exportado | [MER.png](Tarea1/Informe/MER.png) | Disponible e incluido en el informe |
-| Sustentación en YouTube | Enlace de YouTube pendiente | Pendiente de grabación y enlace |
+| Sustentación en YouTube | https://drive.google.com/drive/folders/1O7nvK9qgPh-IfDSm4iCG4Rh-mirR8gnh?usp=sharing | Pendiente de grabación y enlace |
 
 El informe desarrolla el análisis de necesidades, la identificación y justificación de entidades y atributos, las relaciones y cardinalidades, el diagrama MER, las decisiones de diseño, las conclusiones individuales y las referencias. La sección de conclusiones está pendiente de completarse con los aportes de todos los integrantes.
 
