@@ -30,8 +30,7 @@ Cierre y Conclusión
 
 
 
-[Ver video de sustentación](PEGAR_AQUI_EL_ENLACE_DEL_VIDEO)
 
 ## Observación
 
-El video corresponde a la sustentación grupal de la Tarea 4 del módulo Bases de Datos I.
+El video corresponde a la sustentación grupal de la Tarea 5 del módulo Bases de Datos I.
