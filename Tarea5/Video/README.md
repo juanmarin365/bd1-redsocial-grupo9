@@ -1,4 +1,4 @@
-# Video de sustentación - Tarea 4
+# Video de sustentación - Tarea 5
 
 ## Bases de Datos I
 
@@ -13,25 +13,21 @@ Red Social Estudiantil Pascualina
 
 ## Descripción
 
-En este video se presenta la implementación física de la base de datos de la Red Social Estudiantil Pascualina en tres sistemas gestores de bases de datos:
+En este video se presenta la implementación de vistas y consultas en nuestra base de la red social estudiantil pascualina
 
 - PostgreSQL
-- MySQL
-- SQL Server
+
 
 Durante la sustentación se muestran:
 
-- La estructura de la entrega de la Tarea 4.
-- Los scripts DDL de los tres motores.
-- Las principales diferencias entre PostgreSQL, MySQL y SQL Server.
-- El uso de datos semiestructurados mediante JSON.
-- La relación del campo `datos_ubicacion` con escenarios de Big Data e IoT.
-- Los diccionarios de datos genérico y físicos.
-- Las dificultades encontradas durante la implementación y las soluciones aplicadas.
-- Las conclusiones del trabajo.
+Introducción, Modelo Físico y Trabajo en Equipo
+Consultas 1 y 2 (Perfiles y Conexiones)
+Consultas 3, 4 y 5 (Publicaciones, Grupos y Eventos)
+Vistas y Potencial Analítico
+Cierre y Conclusión
 
 ## Enlace del video
-https://drive.google.com/drive/folders/1O7nvK9qgPh-IfDSm4iCG4Rh-mirR8gnh?usp=sharing
+
 
 
 [Ver video de sustentación](PEGAR_AQUI_EL_ENLACE_DEL_VIDEO)
