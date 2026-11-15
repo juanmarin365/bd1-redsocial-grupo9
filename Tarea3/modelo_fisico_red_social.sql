@@ -320,3 +320,4 @@ CREATE TABLE conexion (
             (estado <> 'aceptada' AND fecha_conexion IS NULL)
         )
 );
+
